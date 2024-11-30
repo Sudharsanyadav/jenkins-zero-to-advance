@@ -11,7 +11,7 @@ pipeline{
                echo " this is atest stage .."
             }
         }
-        stage("deploystage"){
+        stage("deploy"){
             step{
             echo "this is a deploy stage "
             }
